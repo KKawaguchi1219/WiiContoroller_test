@@ -3,15 +3,10 @@
 // wiiリモコン
 WiiClassicController wii(D14, D15); // SDA(left side on rev C, GREEN), SCL(D6, YELLOW)
 // コントローラー値
-#define I2C_UPDATE_TIME 1.0
+
 #define JYOY_L_CENTER 31
 #define JYOY_R_CENTER 16
-#define JYOY_MARGIN 4
-#define JYOY_MARGIN2 3
-#define x_gain_1 0.05;
-#define y_gain_1 0.05;
-#define x_gain_2 0.02;
-#define y_gain_2 0.02;
+
 bool b_A;
 bool b_B;
 bool b_X;
